@@ -1,0 +1,68 @@
+:root {
+  --notification-background: rgba(0,0,0, .9) ;
+}
+
+ul.container {
+  width: 25vh;
+}
+ul.container li.notification {
+  background: var(--notification-background);
+}
+ul.container li.notification section.header {
+  position: relative;
+  display: flex;
+}
+ul.container li.notification section.header .left img {
+  width: 6vh;
+  aspect-ratio: 1;
+  background-size: cover;
+}
+ul.container li.notification section.header .right {
+  margin-left: 3%;
+}
+ul.container li.notification section.header .right .titttle {
+  color: white;
+  font-size: 2vh;
+}
+ul.container li.notification section.header .right .desc {
+  padding: 0.2%;
+  color: white;
+  font-size: 1.4vh;
+  background-color: blue;
+}
+ul.container li.notification section.header .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: rgb(230, 230, 230);
+  background-color: lightblue;
+  padding: 0.15vh;
+  border-radius: 4vh;
+  font-size: 1.25vh;
+}
+ul.container li.notification section.main {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+ul.container li.notification section.main div {
+  color: white;
+  font-size: 1.5vh;
+}
+ul.container li.notification section.main div i.blue {
+  color: lightblue;
+}
+ul.container li.notification .progress-bar {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.4vh;
+  width: 100%;
+  background: grey;
+}
+ul.container li.notification .progress-bar .inner-bar {
+  height: 100%;
+  width: 20%;
+  background: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
